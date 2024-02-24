@@ -1,0 +1,13 @@
+2024-02-24 16:20:32.9618 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-02-24 16:20:32.9648 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-02-24 16:20:32.9648 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-24 16:20:32.9836 Info Validating config: TargetNames=alldata, ConfigItems=44, FilePath=C:\Users\anami\source\EFCoreWithRepPattern\EFCoreWithRepPattern\NLog.config
+2024-02-24 16:20:32.9836 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2024-02-24 16:20:32.9836 Info Configuration initialized.
+2024-02-24 16:21:48.7889 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-02-24 16:21:48.7889 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2024-02-24 16:21:48.8006 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-24 16:21:48.8105 Info Validating config: TargetNames=alldata, ConfigItems=44, FilePath=C:\Users\anami\source\EFCoreWithRepPattern\EFCoreWithRepPattern\bin\Debug\net6.0\nlog.config
+2024-02-24 16:21:48.8105 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: otherFile-web
+2024-02-24 16:21:48.8105 Info Configuration initialized.
+2024-02-24 16:21:48.8615 Info Validating config: TargetNames=alldata, ConfigItems=44, FilePath=C:\Users\anami\source\EFCoreWithRepPattern\EFCoreWithRepPattern\bin\Debug\net6.0\nlog.config

@@ -1,22 +1,35 @@
 ﻿using EFCoreWithRepPattern.IRepository;
 using EFCoreWithRepPattern.Models;
 using EFCoreWithRepPattern.Repository;
+using log4net;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+ 
+using System.Collections.Generic;
 
 namespace EFCoreWithRepPattern.Controllers
 {
     public class UserController : Controller
     {
         IRepo _repo;
-        public UserController(IRepo repo)
+        private readonly ILog _logger;
+
+        public UserController(IRepo repo )
         {
+           
             _repo = repo;
+            //_logger = logger ?? throw new ArgumentNullException(nameof(logger));
+
         }
 
         // GET: UserController
         public ActionResult Index()
         {
+            var _logger = log4net.LogManager.GetLogger(typeof(UserController));
+           
+
+            _logger.Info("This is info ");
+            _logger.Error("ERror");
             return View(_repo.GetUsers());
         }
 
